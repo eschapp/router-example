@@ -6,8 +6,10 @@ export default class UserList extends Component {
     return (
       <div>
         <h1>I am the user list</h1>
+        Example Nav - Example Nav
         <UserItem />
         <UserItem />
+        {this.props.children}
       </div>
     );
   }
